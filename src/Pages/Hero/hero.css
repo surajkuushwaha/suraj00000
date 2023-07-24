@@ -1,0 +1,60 @@
+.hero {
+  background-color: var(--bg-primary);
+  height: 90vh;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem 2rem;
+  align-items: flex-start;
+}
+
+.sub-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  color: #ffffff;
+}
+
+.main-heading {
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 6.875rem;
+
+  background: linear-gradient(
+    90deg,
+    #9845e8 -1.72%,
+    #33d2ff 54.05%,
+    #dd5789 99.78%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 133%;
+  /* or 133% */
+  text-align: left;
+
+  color: #f0f0f0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 2rem;
+}

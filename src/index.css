@@ -5,6 +5,7 @@
     --bg-secondary: */
   --text-primary: #FFFFFF;
   --text-secondary: #F0F0F0;
+  --bg-primary: #1A1A1A;
   --bg-primary-hero: #111111;
 }
 
@@ -30,8 +31,18 @@ body {
 }
 
 @font-face {
-  font-family: "Light";
+  font-family: "Bold";
   /*Can be any text*/
   src: local("Inter-Bold"),
     url("./Fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: local('GT Walsheim Pro Regular'), local('GT-Walsheim-Pro-Regular'),
+    url('./Fonts/GTWalsheimPro-Regular.woff2') format('woff2'),
+    url('./Fonts/GTWalsheimPro-Regular.woff') format('woff'),
+    url('./Fonts/GTWalsheimPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
