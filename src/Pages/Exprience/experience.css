@@ -1,0 +1,67 @@
+.experience {
+  height: 100vh;
+  background-color: var(--bg-primary-experience);
+  padding: 0 6.25rem;
+  display: block;
+  --border-width: 3px;
+  padding-top: 6rem;
+}
+
+.experience .heading {
+  display: block;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20rem;
+}
+.main .right {
+  width: 25%;
+  height: 100%;
+  border-left: var(--border-width) solid #1f1e1e;
+}
+.main .left {
+  width: 75%;
+  height: 100%;
+}
+
+.company-card {
+  color: var(--text-primary);
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.company-card:hover {
+  background-color: var(--bg-primary-hero);
+  cursor: pointer;
+}
+
+.company-card-title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.selected {
+  background-color: var(--bg-primary-hero);
+  border-left: var(--border-width) solid #fff;
+  margin-left: calc(0px - var(--border-width));
+
+}
