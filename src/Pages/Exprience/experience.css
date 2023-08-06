@@ -1,0 +1,90 @@
+.experience {
+  background-color: var(--bg-primary-experience);
+  padding: 8rem 6.25rem;
+  --border-width: 3px;
+}
+.text-primary {
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.experience .heading {
+  display: block;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.experience .main {
+  display: flex;
+  height: 20rem;
+  gap: 5rem;
+}
+.experience .main .right {
+  width: 20%;
+  height: fit-content;
+  border-left: var(--border-width) solid #1f1e1e;
+}
+.experience .main .left {
+  width: 80%;
+  height: 100%;
+}
+
+.company-card {
+  color: var(--text-primary);
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.company-card:hover {
+  background-color: var(--bg-primary-hero);
+  cursor: pointer;
+}
+
+.company-card-title {
+  font-size: 1.125rem;
+}
+
+.selected {
+  background-color: var(--bg-primary-hero);
+  border-left: var(--border-width) solid #fff;
+  margin-left: calc(0px - var(--border-width));
+}
+.left .company-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.625rem;
+}
+.left .company-description .company-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.left .company-description .location {
+  color: #6cace4;
+  font-size: 0.875rem;
+}
+
+.left .company-description .heading-title {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+}
+.left .company-description .heading-date {
+  color: #c4c4c4;
+  font-size: 1rem;
+}
+.left .company-description .description-item {
+  color: #c4c4c4;
+  font-size: 1rem;
+}
