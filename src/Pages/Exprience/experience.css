@@ -3,13 +3,6 @@
   padding: 8rem 6.25rem;
   --border-width: 3px;
 }
-.text-primary {
-  color: #fff;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
 .experience .heading {
   display: block;
   text-decoration: none;

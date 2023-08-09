@@ -1,47 +1,61 @@
 :root {
-  /* font-size: 16px;
+	/* font-size: 16px;
     font-family: 'Inter'; */
-  /* --bg-primary: #201F1F;
+	/* --bg-primary: #201F1F;
     --bg-secondary: */
-  --text-primary: #ffffff;
-  --text-secondary: #f0f0f0;
-  --bg-primary: #1a1a1a;
-  --bg-primary-hero: #111111;
-  --bg-primary-experience: #000;
+	--text-primary: #ffffff;
+	--text-secondary: #f0f0f0;
+	--bg-primary: #1a1a1a;
+	--bg-primary-hero: #111111;
+	--bg-primary-experience: #000;
 }
 
 body {
-  /* color: black;
+	/* color: black;
     background-color: white; */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 @font-face {
-  font-family: "Light";
-  /*Can be any text*/
-  src: local("Inter"), url("./Fonts/Inter-Medium.ttf") format("truetype");
+	font-family: "Light";
+	/*Can be any text*/
+	src:
+		local("Inter"),
+		url("./Fonts/Inter-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Bold";
-  /*Can be any text*/
-  src: local("Inter-Bold"), url("./Fonts/Inter-Bold.ttf") format("truetype");
+	font-family: "Bold";
+	/*Can be any text*/
+	src:
+		local("Inter-Bold"),
+		url("./Fonts/Inter-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "GT Walsheim Pro";
-  src: local("GT Walsheim Pro Regular"), local("GT-Walsheim-Pro-Regular"),
-    url("./Fonts/GTWalsheimPro-Regular.woff2") format("woff2"),
-    url("./Fonts/GTWalsheimPro-Regular.woff") format("woff"),
-    url("./Fonts/GTWalsheimPro-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+	font-family: "GT Walsheim Pro";
+	src:
+		local("GT Walsheim Pro Regular"),
+		local("GT-Walsheim-Pro-Regular"),
+		url("./Fonts/GTWalsheimPro-Regular.woff2") format("woff2"),
+		url("./Fonts/GTWalsheimPro-Regular.woff") format("woff"),
+		url("./Fonts/GTWalsheimPro-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+.text-primary {
+	color: #fff;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
 }
