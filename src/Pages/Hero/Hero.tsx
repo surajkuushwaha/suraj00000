@@ -5,8 +5,8 @@ import "./hero.css";
 export const Hero = () => {
   const socialLinks = [
     { link: "https://github.com/suraj00000", icon: "./icons/github.svg", text: "Github" },
-    { link: "mailto:skk74143@gmail.com", icon: "./icons/linkedin.svg", text: "Send an email" },
-    { link: "https://www.linkedin.com/in/suraj--kushwaha/", icon: "./icons/mail.svg", text: "LinkedIn" },
+    { link: "mailto:skk74143@gmail.com", icon: "./icons/mail.svg", text: "Send an email" },
+    { link: "https://www.linkedin.com/in/suraj--kushwaha/", icon: "./icons/linkedin.svg", text: "LinkedIn" },
   ];
   return (
     <>
