@@ -1,4 +1,4 @@
-[![wakatime](https://wakatime.com/badge/user/4b562612-5c3d-46f1-99b6-f699d76fac28.svg)](https://wakatime.com/@4b562612-5c3d-46f1-99b6-f699d76fac28)
+[![wakatime](https://wakatime.com/badge/user/018bc7d2-17b3-4d49-95b6-eb44f04a75af.svg)](https://wakatime.com/@018bc7d2-17b3-4d49-95b6-eb44f04a75af)
 <h1 align="center">Hi 👋, I'm Suraj kuswaha</h1>
 <h3 align="center">A passionate fullstack developer from India</h3>
 
